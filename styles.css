@@ -1,25 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
+:root {
+    --header-background: #fdba74;
+    --amber: #ffedd5;
+    --text-header: #be185d;
+
+}
+
+body {
+    background-color: var(--amber);
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.navigation {
+    background-color: var(--header-background);
+    color: var(--text-header);
+    padding: 0.5rem;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    text-align: center;
+}
+
+.mainSection {
+    background-color: var(--amber);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.margin {
+    margin: 1.5rem;
+}
+
+.flexClass {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
 .font {
     font-family: 'Comfortaa', cursive;
 }
 
-.center{
-    display: block;
-    margin: auto;
-    width: 60%;
-}
-
-textarea {
-    width: 60%;
-    height: 10vh;
-    padding: 1rem;
-}
-
 .output {
+    background-color: var(--amber);
     border: 1px solid black;
-    width: 60%;
-    height: 10vh;
-    margin: 2rem;
+    width: 40%;
+    height: 13vh;
     padding: 1rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 14px;
+}
+
+button {
+    padding: 1rem;
+    background-color: var(--amber);
+    border-radius: 0.5rem;
+}
+
+.footer {
+    background-color: var(--header-background);
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    color: var(--text-header);
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer-text {
+    margin-top:0    rem;
+}
+
+a {
+    color: var(--text-header);
 }
