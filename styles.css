@@ -35,7 +35,7 @@ body {
 .flexClass {
     display: flex;
     justify-content: center;
-    margin: 1.5rem;
+    margin: auto;
 }
 
 .font {
